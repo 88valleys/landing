@@ -1,0 +1,152 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;  /* Add this line */
+  margin: 0 auto;  /* Add this line */
+}
+/*
+.avatar-lg {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.avatar-xl {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+} */
+
+.banner {
+  padding: 300px 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.banner h1
+{
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 6px 4px 17px rgba(154, 143, 143, 0.6);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-right {
+  float: right;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+}
+
+
+.card img {
+  width: 200px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  /* box-shadow: 0 0 5px rgb(230,230,230); */
+  text-align: center;
+  padding: 5px;
+  /* border: 1px solid rgb(230,230,230); */
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media(max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
+
+.footer
+{
+  width: 100%;
+}
+
+.footer h3
+{
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.cards h2 {
+  width: 100%;  /* Add this line */
+  text-align: center;  /* Add this line */
+  margin-bottom: 20px;  /* Add this line */
+}
